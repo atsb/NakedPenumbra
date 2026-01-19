@@ -1,49 +1,13 @@
-NakedPenumbra - Based on Vanilla and Rehatched
-==============
-A project to create a modernised version of Frictional Games' HPL1 game engine and Penumbra game series source code.  Aiming to be as close to vanilla as possible.
+# NakedPenumbra
+This is the HPL1 engine for Penumbra Overture. Simple to build with Visual Studio.  
+  
+Original repositories:  
+* HPL1 - https://github.com/FrictionalGames/HPL1Engine  
+* OALWrapper - https://github.com/FrictionalGames/OALWrapper  
+* Penumbra: Overture - https://github.com/FrictionalGames/PenumbraOverture   
 
-NOTE: This is currently under heavy development.  We WILL have a proper universal macOS version eventually!  Contributors are welcome.
+Just build the visual studio project (one click build - release x86).
 
-Building
---------
-All dependencies are included in the repository. This is mostly because many of them are (very) old versions.
+This remains as a 32bit program due to it being able to be an exact drag and drop replacement for the version on steam.
 
-### macOS
-
-* Open the Xcode project
-* Select Penumbra Overture target
-* Build the target
-* Copy the built application and the `rehatched` folder into your pre-existing Penumbra game folder
-* Run the app (macOS 11.5 or newer required)
-
-### Windows (WIP)
-
-* Open the Visual Studio 2022 Solution
-* Select for now the release/x64 target 
-* Build it
-* Copy the built application and the `rehatched` folder into your pre-existing Penumbra game folder
-* Run the game (Windows xp x64 bit or newer is required to play)
-
-
-Project Links
--------------
-This repo encompasses 2 repos from Frictional Games:
-
-* [HPL1Engine](https://github.com/FrictionalGames/HPL1Engine)
-* [PenumbraOverture](https://github.com/FrictionalGames/PenumbraOverture)
-
-There are a couple of reasons why this is not just a fork of these:
-The 2 projects were designed to share some dependencies and are closely interrelated
-so having them in one repo with the dependencies makes development simpler. In addition,
-some of the dependencies are very old and/or have been specially built and/or modified
-to work with this project. Finally, Frictional Games do not have time to properly
-respond to pull requests etc so their original repos should be considered more of
-a preservation effort than a live project.
-
-Licence and Copyright
----------------------
-Penumbra, Penumbra: Overture and HPL are all Copyright [Frictional Games](https://frictionalgames.com/). 
-All code and assets included in this repo are licensed under GPL3, see the LICENSE file for details.
-
-The Penumbra games and all their assets are not included with this project,
-you need a pre-existing installation of the game.
+This is a modernised and fixed version of Renumbra, with some original code put back in and fixed.

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OALWrapper\OAL_AudioData.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Buffer.cpp" />
+    <ClCompile Include="OALWrapper\OAL_CustomStream.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Device.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Effect.cpp" />
+    <ClCompile Include="OALWrapper\OAL_EffectSlot.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Effect_Reverb.cpp" />
+    <ClCompile Include="OALWrapper\OAL_EFX.cpp" />
+    <ClCompile Include="OALWrapper\OAL_EFXManager.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Filter.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Helper.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Init.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Loaders.cpp" />
+    <ClCompile Include="OALWrapper\OAL_LoggerObject.cpp" />
+    <ClCompile Include="OALWrapper\OAL_OggSample.cpp" />
+    <ClCompile Include="OALWrapper\OAL_OggStream.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Playback.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Sample.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Source.cpp" />
+    <ClCompile Include="OALWrapper\OAL_SourceManager.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Stream.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Types.cpp" />
+    <ClCompile Include="OALWrapper\OAL_WAVSample.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OALWrapper\OAL_AudioData.h" />
+    <ClInclude Include="OALWrapper\OAL_Buffer.h" />
+    <ClInclude Include="OALWrapper\OAL_CustomStream.h" />
+    <ClInclude Include="OALWrapper\OAL_Device.h" />
+    <ClInclude Include="OALWrapper\OAL_Effect.h" />
+    <ClInclude Include="OALWrapper\OAL_EffectSlot.h" />
+    <ClInclude Include="OALWrapper\OAL_Effect_Reverb.h" />
+    <ClInclude Include="OALWrapper\OAL_EFX.h" />
+    <ClInclude Include="OALWrapper\OAL_EFXManager.h" />
+    <ClInclude Include="OALWrapper\OAL_Filter.h" />
+    <ClInclude Include="OALWrapper\OAL_Funcs.h" />
+    <ClInclude Include="OALWrapper\OAL_Helper.h" />
+    <ClInclude Include="OALWrapper\OAL_Init.h" />
+    <ClInclude Include="OALWrapper\OAL_Loaders.h" />
+    <ClInclude Include="OALWrapper\OAL_LoggerObject.h" />
+    <ClInclude Include="OALWrapper\OAL_LowLevelObject.h" />
+    <ClInclude Include="OALWrapper\OAL_OggSample.h" />
+    <ClInclude Include="OALWrapper\OAL_OggStream.h" />
+    <ClInclude Include="OALWrapper\OAL_Playback.h" />
+    <ClInclude Include="OALWrapper\OAL_Sample.h" />
+    <ClInclude Include="OALWrapper\OAL_Source.h" />
+    <ClInclude Include="OALWrapper\OAL_SourceManager.h" />
+    <ClInclude Include="OALWrapper\OAL_Stream.h" />
+    <ClInclude Include="OALWrapper\OAL_Types.h" />
+    <ClInclude Include="OALWrapper\OAL_WAVSample.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{71687258-2533-487C-B029-0079F0F071E6}</ProjectGuid>
+    <RootNamespace>Renumbra</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>OALWrapper</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\Binaries\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\Intermediate\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\Binaries\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\Intermediate\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\Binaries\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\Intermediate\$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\Binaries\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>..\..\Intermediate\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HPL_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Projects\Renumbra\Engine\Sources\R_OALWrapper\OALWrapper\Include;C:\Projects\Renumbra\Engine\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Projects\Renumbra\Engine\SDK\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HPL_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>OALWrapper\Include;..\..\SDK\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Projects\Renumbra\Engine\SDK\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fltk.lib;wsock32.lib;comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Lib>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Projects\Renumbra\Engine\Sources\Renumbra\OALWrapper\Include;C:\Projects\Renumbra\Engine\SDK\Include;C:\Projects\Renumbra\Engine\Sources\Renumbra\HPL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Projects\Renumbra\Engine\SDK\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Projects\Renumbra\Engine\Sources\Renumbra\OALWrapper\Include;C:\Projects\Renumbra\Engine\SDK\Include;C:\Projects\Renumbra\Engine\Sources\Renumbra\HPL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Projects\Renumbra\Engine\SDK\Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

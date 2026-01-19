@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="OALWrapper\OAL_Effect_Reverb.cpp" />
+    <ClCompile Include="OALWrapper\OAL_EffectSlot.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Filter.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Helper.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Init.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Loaders.cpp" />
+    <ClCompile Include="OALWrapper\OAL_LoggerObject.cpp" />
+    <ClCompile Include="OALWrapper\OAL_OggSample.cpp" />
+    <ClCompile Include="OALWrapper\OAL_OggStream.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Playback.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Sample.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Source.cpp" />
+    <ClCompile Include="OALWrapper\OAL_SourceManager.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Stream.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Types.cpp" />
+    <ClCompile Include="OALWrapper\OAL_WAVSample.cpp" />
+    <ClCompile Include="OALWrapper\OAL_AudioData.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Buffer.cpp" />
+    <ClCompile Include="OALWrapper\OAL_CustomStream.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Device.cpp" />
+    <ClCompile Include="OALWrapper\OAL_Effect.cpp" />
+    <ClCompile Include="OALWrapper\OAL_EFX.cpp" />
+    <ClCompile Include="OALWrapper\OAL_EFXManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OALWrapper\OAL_AudioData.h" />
+    <ClInclude Include="OALWrapper\OAL_Buffer.h" />
+    <ClInclude Include="OALWrapper\OAL_CustomStream.h" />
+    <ClInclude Include="OALWrapper\OAL_Device.h" />
+    <ClInclude Include="OALWrapper\OAL_Effect.h" />
+    <ClInclude Include="OALWrapper\OAL_Effect_Reverb.h" />
+    <ClInclude Include="OALWrapper\OAL_EffectSlot.h" />
+    <ClInclude Include="OALWrapper\OAL_EFX.h" />
+    <ClInclude Include="OALWrapper\OAL_EFXManager.h" />
+    <ClInclude Include="OALWrapper\OAL_Filter.h" />
+    <ClInclude Include="OALWrapper\OAL_Funcs.h" />
+    <ClInclude Include="OALWrapper\OAL_Helper.h" />
+    <ClInclude Include="OALWrapper\OAL_Init.h" />
+    <ClInclude Include="OALWrapper\OAL_Loaders.h" />
+    <ClInclude Include="OALWrapper\OAL_LoggerObject.h" />
+    <ClInclude Include="OALWrapper\OAL_LowLevelObject.h" />
+    <ClInclude Include="OALWrapper\OAL_OggSample.h" />
+    <ClInclude Include="OALWrapper\OAL_OggStream.h" />
+    <ClInclude Include="OALWrapper\OAL_Playback.h" />
+    <ClInclude Include="OALWrapper\OAL_Sample.h" />
+    <ClInclude Include="OALWrapper\OAL_Source.h" />
+    <ClInclude Include="OALWrapper\OAL_SourceManager.h" />
+    <ClInclude Include="OALWrapper\OAL_Stream.h" />
+    <ClInclude Include="OALWrapper\OAL_Types.h" />
+    <ClInclude Include="OALWrapper\OAL_WAVSample.h" />
+  </ItemGroup>
+</Project>

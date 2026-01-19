@@ -1,1 +1,0 @@
-C:\Users\Ad4m\GitHub\NakedPenumbra\3rdparty\AngelScript\x64\Release\angelscript.lib
